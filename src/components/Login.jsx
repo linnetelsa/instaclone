@@ -1,16 +1,23 @@
-// src/components/Login.jsx
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import './Auth.css';
 
 const Login = () => {
+  const navigate = useNavigate();
+
+  const handleLogin = (e) => {
+    e.preventDefault();
+    // Simulate successful login
+    navigate('/feed');
+  };
+
   return (
     <div className="auth-container">
       <div className="auth-inner">
         <div className="auth-logo">
           <img src="https://www.instagram.com/static/images/web/logged_out_wordmark.png/7a252de00b20.png" alt="Instagram" />
         </div>
-        <form>
+        <form onSubmit={handleLogin}>
           <div className="form-group">
             <input type="text" className="form-control" placeholder="Phone number, username, or email" />
           </div>
@@ -32,8 +39,8 @@ const Login = () => {
       <div className="auth-footer">
         <p>Don't have an account? <Link to="/signup">Sign up</Link></p>
       </div>
+     
     </div>
-    
   );
 };
 
