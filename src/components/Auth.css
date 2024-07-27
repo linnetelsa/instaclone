@@ -1,0 +1,75 @@
+/* src/components/Auth.css */
+.auth-container {
+    background-color: #fff;
+    border: 1px solid #dbdbdb;
+    padding: 40px;
+    width: 350px;
+    margin: 20px;
+  }
+  
+  .auth-inner {
+    text-align: center;
+  }
+  
+  .auth-logo img {
+    width: 175px;
+    margin-bottom: 20px;
+  }
+  
+  .form-group {
+    margin-bottom: 10px;
+  }
+  
+  .form-control {
+    font-size: 14px;
+    padding: 10px;
+  }
+  
+  .btn-block {
+    width: 100%;
+    background-color: #0095f6;
+    border: 1px solid transparent;
+    color: #fff;
+    padding: 5px 9px;
+    border-radius: 4px;
+    font-weight: bold;
+  }
+  
+  .or {
+    position: relative;
+    margin: 20px 0;
+    font-weight: 500;
+    color: #8e8e8e;
+  }
+  
+  .or::before,
+  .or::after {
+    content: '';
+    display: block;
+    width: 105px;
+    height: 1px;
+    background-color: #dbdbdb;
+    position: absolute;
+    top: 50%;
+  }
+  
+  .or::before {
+    left: 0;
+  }
+  
+  .or::after {
+    right: 0;
+  }
+  
+  .forgot-password {
+    color: #00376b;
+  }
+  
+  .auth-footer {
+    background-color: #fff;
+    border: 1px solid #dbdbdb;
+    padding: 20px;
+    text-align: center;
+    margin-top: 10px;
+  }
+  

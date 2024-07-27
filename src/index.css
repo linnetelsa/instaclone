@@ -1,0 +1,12 @@
+/* src/index.css */
+body {
+  background-color: #fafafa;
+  font-family: 'Roboto', sans-serif;
+}
+
+.app {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
