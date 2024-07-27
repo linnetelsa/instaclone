@@ -70,7 +70,7 @@ const Feed = () => {
             </button>
           </div>
           <div className="post-caption">
-            <strong>Username</strong> Caption text...
+            <strong>Anu</strong> picture 
           </div>
         </div>
         {/* Add more posts as needed */}
